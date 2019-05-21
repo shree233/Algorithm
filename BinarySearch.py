@@ -10,7 +10,6 @@ def binarySearch(list, item):
     Returns:
         如果该元素存在则返回索引,不存在则返回-1.
         Forexample:
-
         print(binarySearch(test_list,6)) 
         #3
         print(binarySearch(test_list,10)) 
@@ -36,6 +35,6 @@ def binarySearch(list, item):
 
 test_list = [1, 3, 5, 6, 7, 8, 9]
 
-print(binarySearch(test_list, 6))
+print(binarySearch(test_list, 1))
 
 print(binarySearch(test_list, 10))
